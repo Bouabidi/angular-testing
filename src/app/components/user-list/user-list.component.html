@@ -1,0 +1,18 @@
+<h3 style="text-align: center;">user-list works!</h3>
+<hr><br>
+
+<table id="usersTb">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Technology</th>
+        <th>Dance</th>
+    </tr>
+    <tr *ngFor="let user of users; let i=index">
+
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.tech}}</td>
+        <td>{{user.dance}}</td>
+    </tr>
+</table>

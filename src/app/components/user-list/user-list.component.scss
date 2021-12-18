@@ -1,0 +1,19 @@
+#usersTb {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#usersTb td, #usersTb th {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+#usersTb tr:hover {background-color: rgb(246, 246, 246);}
+
+#usersTb th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(235, 235, 235);
+}

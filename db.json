@@ -1,0 +1,51 @@
+{
+  "users": [
+    { "id": 1, 
+     "name": "Erb", 
+     "email": "erb@abc.com", 
+     "tech": ".NET", 
+     "dance": "Pocco"
+    },
+    { "id": 2, 
+     "name": "Margaret", 
+     "email": "margaret@abc.com", 
+     "tech": "Scala", 
+     "dance": "Zanku"
+    },
+    { "id": 3, 
+     "name": "Raphael", 
+     "email": "raphael@abc.com", 
+     "tech": "Java", 
+     "dance": "Shaku shaku"
+    },
+    { "id": 4, 
+     "name": "Anthony", 
+     "email": "anthony@abc.com", 
+     "tech": "Python", 
+     "dance": "Pilolo"
+    },
+    { "id": 5, 
+     "name": "Deladem", 
+     "email": "deladem@abc.com", 
+     "tech": "Angular", 
+     "dance": "Gwara Gwara"
+    },
+    { "id": 6, 
+     "name": "Selase", 
+     "email": "selase@abc.com", 
+     "tech": "Photoshop", 
+     "dance": "Azonto"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien"
+    },
+    { "id": 1, "title": "The Two Towers", "author": "J.R.R. Tolkien" },
+    { "id": 1, "title": "The Return of the King", "author": "J.R.R. Tolkien" }
+  ],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" }
+}
